@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: aa2aa2f21f92ae94296c2ecc9befc748
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 69bcdc983bc59a449a8b0594cf5df2b4
+  - enabled: 1
+    path: Assets/Scenes/Timesup.unity
+    guid: 711bbdf5bf144ae429470f3ea97379db
+  - enabled: 1
+    path: Assets/Scenes/Leaderboard.unity
+    guid: 89cfdbe92f658824a8215dd2f173ecc1
   m_configObjects: {}

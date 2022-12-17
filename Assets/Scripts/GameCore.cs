@@ -27,7 +27,7 @@ public class GameScore
 [SerializeField]
 public class FetchGameScore
 {
-public GameScore[] scores;
+    public GameScore[] scores;
 }
 
 public class GameCore : MonoBehaviour
@@ -37,27 +37,7 @@ public class GameCore : MonoBehaviour
     public AudioSource correctSource;
     public AudioSource incorrectSource;
 
-    public GameScore[] scores = new GameScore[]
-    {
-        new GameScore
-        {
-            name = "test",
-            rank = 1,
-            time = 23.4f
-        },
-        new GameScore
-        {
-            name = "test",
-            rank = 1,
-            time = 23.4f
-        },
-        new GameScore
-        {
-            name = "test",
-            rank = 1,
-            time = 23.4f
-        }
-    };
+    public GameScore[] scores = new GameScore[0];
 
     public float time = 0;
     public int correct = 0;

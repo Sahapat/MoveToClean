@@ -89,7 +89,7 @@ public class MainGame : MonoBehaviour
                     else
                     {
                         GameCore.Instance.incorrect += 1;
-                        this.correctText.text = GameCore.Instance.incorrect.ToString();
+                        this.incorrectText.text = GameCore.Instance.incorrect.ToString();
                         GameCore.Instance.PlayInCorrect();
                     }
 

@@ -10,6 +10,7 @@ public class Leaderboard : MonoBehaviour
     public Text[] player1;
     public Text[] player2;
     public Text[] player3;
+    public Text[] player4;
 
     public List<Text[]> playerList = new List<Text[]>();
     void Awake()
@@ -17,6 +18,7 @@ public class Leaderboard : MonoBehaviour
         playerList.Add(player1);
         playerList.Add(player2);
         playerList.Add(player3);
+        playerList.Add(player4);
     }
 
     void Start()

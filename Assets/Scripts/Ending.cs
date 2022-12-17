@@ -22,14 +22,14 @@ public class Ending : MonoBehaviour
 
     private async UniTask SendGameScore()
     {
-        await GameCore.Instance.SendScore(new ScorePostRequest
-        {
-            correct = GameCore.Instance.correct,
-            incorrect = GameCore.Instance.incorrect,
-            email = emailInput.text,
-            name = nameInput.text,
-            time = GameCore.Instance.time
-        });
+        // await GameCore.Instance.SendScore(new ScorePostRequest
+        // {
+        //     correct = GameCore.Instance.correct,
+        //     incorrect = GameCore.Instance.incorrect,
+        //     email = emailInput.text,
+        //     name = nameInput.text,
+        //     time = GameCore.Instance.time
+        // });
         SceneManager.LoadScene("Scoreboard");
     }
 }

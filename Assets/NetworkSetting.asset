@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da9e54c94dfeb04f86b90cd3b57417c, type: 3}
   m_Name: NetworkSetting
   m_EditorClassIdentifier: 
-  FetchLeaderboardUrl: http://159.223.89.254:801/get_score
-  PostScoreUrl: http://159.223.89.254:801/save_score
+  FetchLeaderboardUrl: https://159.223.89.254:801/get_score
+  PostScoreUrl: https://159.223.89.254:801/save_score
